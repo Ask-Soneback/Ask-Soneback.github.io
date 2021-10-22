@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body = style=background-color:#e7fffe>
+    <style>
+        img{
+            border: 0px;
+            float: right;
+            padding: 0px;
+            margin: 0px;
+        }
+        form{
+            text-align: center;
+            align-self: auto;
+        }
+    </style>
+    <title>Bli medlem</title>
+</head>
+<body>
+    <form action="index.html" method="get">
+        <p>Skriv i formuläret för att bli medlem</p>
+        <label for="fname">Förnamn:</label>
+        <input type="text" id="fname" name="fname" required="">
+
+        <br><br>
+        <label for="ename">Efternamn:</label>
+        <input type="text" id="ename" name="ename" required=""><br><br>
+        <label for="mail">E-post:</label>
+        
+        <input type="email" id="mail" name="mail" required=""><br><br>
+        <label for="date">Födelsedatum</label>
+        <input type="date" name="date" id="date" required=""><br>
+
+        <p>Kön:</p>
+        <input type="radio" id="radio-1" value="man" name="gender" required="">
+        <label for="radio-1">Man</label><br>
+        <input type="radio" id="radio-2" value="kvinna" name="gender">
+        <label for="radio-2">Kvinna</label><br>
+        <input type="radio" id="radio-3" value="annat" name="gender">
+        <label for="radio-3">Annat</label><br><br>
+       
+        <marquee behavior="alternate" direction="up" scrollamount="13"><img srcset="https://cdn.discordapp.com/attachments/844313730803302452/898542749068976158/unknown.png 2.25x"></marquee>
+        <label for="password">Välj ett lösenord:</label>
+        <input type="password" id="password" name="password" required=""><br><br>
+
+        <input type="submit" value="Gå med"><br><br>
+        
+    </form>
+</body>
+</html>
